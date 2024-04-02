@@ -1,5 +1,5 @@
 msg = "";
-msg = "About Athena.software               " + msg; position = 0;
+msg = "About handicraft               " + msg; position = 0;
 
 function scrolltitle() {
   document.title = msg.substring(position, msg.length) + msg.substring(0, position); position++;
