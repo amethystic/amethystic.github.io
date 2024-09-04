@@ -1,5 +1,5 @@
 msg = "";
-msg = "About handicraft               " + msg; position = 0;
+msg = "Goodbye                   " + msg; position = 0;
 
 function scrolltitle() {
   document.title = msg.substring(position, msg.length) + msg.substring(0, position); position++;
